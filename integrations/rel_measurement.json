@@ -1,0 +1,8 @@
+{
+    "event": "resonant/rel/measurement-2",
+    "url": "http://108.70.115.6:1619/particle",
+    "requestType": "POST",
+    "noDefaults": false,
+    "rejectUnauthorized": true,
+    "body": "{\n  \"event\": \"resonant/rel/measurement\",\n  \"data\": {\n \"tags\": \n{\n  \"id\":\"{{{PARTICLE_DEVICE_ID}}}\",\n  \"fw_version\": \"{{{PRODUCT_VERSION}}}\",\n  \"userid\": \"{{{PARTICLE_USER_ID}}}\",\n  \"eventSource\":\"particle\"\n},\n\"values\":\n{\n  \"temp\":{{{temp}}},\n  \"co2\":{{{co2}}},\n  \"humidity\":{{{humidity}}}\n}\n},\n  \"published_at\": \"{{{PARTICLE_PUBLISHED_AT}}}\",\n  \"public\": \"{{{PARTICLE_EVENT_PUBLIC}}}\",\n  \"influx_db\": \"example\",\n  \"measurement\": \"example\"\n}"
+}

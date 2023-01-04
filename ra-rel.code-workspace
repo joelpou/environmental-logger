@@ -1,0 +1,22 @@
+{
+    "settings": {
+        "extensions.ignoreRecommendations": true,
+        "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+        "files.associations": {
+            "*.ino": "cpp",
+            "cmath": "cpp",
+            "xiosbase": "cpp",
+            "*.tcc": "cpp",
+            "system_error": "cpp"
+        },
+        "particle.targetDevice": "e00fce685f8b47b749d7d3a1",
+        "particle.firmwareVersion": "0.8.0-rc.27",
+        "particle.targetPlatform": "xenon",
+        "cortex-debug.openocdPath": "/Users/haonguyen/.particle/toolchains/openocd/0.10.0-particle.1/bin/openocd"
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
+}

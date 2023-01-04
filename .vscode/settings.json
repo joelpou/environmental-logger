@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "particle.firmwareVersion": "0.9.0",
+    "particle.targetPlatform": "argon",
+    "particle.targetDevice": "e00fce683617846d2f58ccc3"
+}

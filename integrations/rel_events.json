@@ -1,0 +1,8 @@
+{
+    "event": "resonant/rel/",
+    "url": "http://108.70.115.6:1619/particle",
+    "requestType": "POST",
+    "noDefaults": true,
+    "rejectUnauthorized": true,
+    "body": "{\n  \"event\": \"{{{PARTICLE_EVENT_NAME}}}\",\n  \"data\": {{{PARTICLE_EVENT_VALUE}}},\n  \"coreid\": \"{{{PARTICLE_DEVICE_ID}}}\",\n  \"published_at\": \"{{{PARTICLE_PUBLISHED_AT}}}\",\n  \"name\": \"{{{PARTICLE_EVENT_NAME}}}\",\n  \"userid\": \"{{{PARTICLE_USER_ID}}}\",\n  \"fw_version\": \"{{{PRODUCT_VERSION}}}\",\n  \"public\": \"{{{PARTICLE_EVENT_PUBLIC}}}\",\n  \"influx_db\": \"example\",\n  \"measurement\": \"example\"\n}"
+}

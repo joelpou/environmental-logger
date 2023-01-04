@@ -1,0 +1,7 @@
+target/obj/src/module_info.o.d
+target/
+src/xenon-only.cpp
+src/argon-only.cpp
+src/ra-rel.cpp
+*.bin
+*.md5
